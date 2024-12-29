@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #565251;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: 2px solid #100707;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background-clip: padding-box; 
+}
+.one{
+    background-color: #fffefe;
+    padding: 30px;
+
+    border-radius: 10px;
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+   
+}
+.one:hover{
+    background-color: #d7d7d7;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#count {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #132cbc;
+    margin-bottom: 20px;
+    display: inline-block;
+    
+}
+
+#container {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#inc {
+    background-color: #28a745;
+    color: #fff;
+    border: 2px solid #218838;
+}
+
+#inc:hover {
+    background-color: #218838;
+}
+
+#dec {
+    background-color: #dc3545;
+    color: #fff;
+    border: 2px solid #c82333;
+}
+
+#dec:hover {
+    background-color: #c82333;
+}
+
+#reset {
+    background-color: #ffc107;
+    color: #212529;
+    border: 2px solid #e0a800;
+}
+
+#reset:hover {
+    background-color: #e0a800;
+}
+
+
